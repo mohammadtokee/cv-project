@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 60rem;
+  background-color: #e4f9f5;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/*------------------
+ Header Start 
+ -------------------*/
+
+header {
+}
+
+.cv-image {
+  width: 6.5rem;
+  height: 7rem;
+  margin: 0 0.5rem;
+  border: 0.2rem solid white;
+  border-radius: 50%;
+  float: left;
+}
+
+.header-bio {
+  float: left;
+  padding: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #11999e;
+}
+
+.header-contact {
+  float: right;
+  padding: 1.5rem;
+}
+
+.header-contact a {
+  color: teal;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-contact a:hover {
+  color: tomato;
+}
+
+/*------------------
+Header End 
+--------------------*/
+
+/* div clearing */
+.div-clear {
+  clear: both;
+}
+
+hr {
+  border: solid black 0.2rem;
+  width: 100%;
+  margin: 1.5rem auto;
+  border-bottom: none;
+}
+
+/*----------------------
+Main Section Start
+----------------------*/
+
+/* personal-information */
+#personal-section {
+}
+
+.content {
+  margin: 1.5rem;
+}
+
+.left-div {
+  width: 30%;
+  float: left;
+}
+
+.right-div {
+  width: 70%;
+  float: left;
+}
+
+.common-hr {
+  border: solid black 0.12rem;
+  border-bottom: none;
+  width: 100%;
+  margin: 1.5rem auto;
+}
+
+.edu-templete-left {
+  float: left;
+  width: 45%;
+}
+
+.edu-templete-right {
+  float: right;
+  width: 45%;
+}
+
+.ref-templete-left {
+  float: left;
+  width: 45%;
+}
+
+.ref-templete-right {
+  float: right;
+  width: 45%;
+}
+
+.edu-templete-left a,
+.edu-templete-right a,
+.ref-templete-left a,
+.ref-templete-right a {
+  text-decoration: none;
+  color: black;
+}
+
+.edu-templete-left a:hover,
+.edu-templete-right a:hover,
+.ref-templete-left a:hover,
+.ref-templete-right a:hover {
+  color: tomato;
+}
+
+/*----------------
+Footer Start
+--------------------*/
+
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin: 1.5rem;
+}
+
+.footer p {
+  color: white;
+  margin-top: 1.5rem;
+}
